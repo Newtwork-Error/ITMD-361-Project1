@@ -91,6 +91,38 @@ p, h1, h2, h3 {
   padding: 1em 3em;
 }
 
-#pet-body p, h2 {
+#pet-body h2 {
   text-align: center;
+}
+
+#pet-body p {
+  text-align: center;
+}
+
+.section {
+  border: 5px solid black;
+  margin: 1em 2.5em;
+  background-color: #fff;
+}
+
+#main-body {
+  background-color: #dedede;
+}
+
+#main-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-body p {
+  font-family: 'verdana', sans-serif;
+}
+
+#main-body ul {
+  font-family: 'verdana', sans-serif;
+}
+
+.resume-list li {
+  padding: 0em 0em 1em 0em;
 }
