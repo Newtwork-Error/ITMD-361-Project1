@@ -66,3 +66,31 @@ p, h1, h2, h3 {
 #delta-video {
   padding: 0px 0px 0px 50px;
 }
+
+#pet-body {
+ background-color: #96b9d0;
+}
+
+.pet-div{
+  float: left;
+  width: 100%
+}
+
+.double-pet-images {
+  float: right;
+  width: 82%;
+  display: block;
+}
+
+.single-pet-image {
+  float: right;
+  width: 67%;
+}
+
+#pet-body img {
+  padding: 1em 3em;
+}
+
+#pet-body p, h2 {
+  text-align: center;
+}
