@@ -29,3 +29,40 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #000;
 }
+
+header {
+  text-align: center;
+}
+
+p, h1, h2, h3 {
+  padding: 0px 10px;
+}
+
+#delta-body {
+  background-color: #000;
+  color: #fff;
+}
+
+#delta-body h1 {
+  font-family: 'VT323', monospace;
+  font-size: 80px;
+}
+
+#delta-body h2 {
+  font-family: 'VT323', monospace;
+  font-size: 60px;
+}
+
+#delta-body h3 {
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+}
+
+#deltarune-banner {
+  height: 300px;
+  width: 100%;
+}
+
+#delta-video {
+  padding: 0px 0px 0px 50px;
+}
