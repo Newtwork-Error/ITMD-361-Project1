@@ -128,7 +128,9 @@ p, h1, h2, h3 {
 }
 
 #map {
-  height: 100%;
+  width: 1000px;
+  height: 600px;
+  margin: 50px auto;
 }
 
 #map-html{
