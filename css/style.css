@@ -127,6 +127,22 @@ p, h1, h2, h3 {
   padding: 0em 0em 1em 0em;
 }
 
+#map {
+  height: 100%;
+}
+
+#map-html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+	  
+#map-body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (min-width: 800px) {
   #delta-body h2 {
     text-align: center;
