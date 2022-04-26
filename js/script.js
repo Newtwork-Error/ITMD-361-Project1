@@ -23,6 +23,26 @@ function initMap(){
 	  shouldFocus: false,
 	});
   });
+  
+  const campusBoundriesCoord = [
+    { lat: 41.83946, lng: -87.63003 },
+    { lat: 41.83961, lng: -87.62349 },
+    { lat: 41.83290, lng: -87.62332 },
+    { lat: 41.83284, lng: -87.62655 },
+    { lat: 41.83103, lng: -87.62655 },
+    { lat: 41.83103, lng: -87.63003 },
+	{ lat: 41.83946, lng: -87.63003 },
+  ];
+  
+  const campusBoundries = new google.maps.Polyline({
+    path: campusBoundriesCoord,
+    geodesic: true,
+    strokeColor: "#FF0000",
+    strokeOpacity: 1.0,
+    strokeWeight: 2,
+  });
+  
+  campusBoundries.setMap(map);
 }
 
 function init(){
