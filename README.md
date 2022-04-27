@@ -5,3 +5,4 @@ Phase 1 requires us to make three webpages using only html.
 The first page needs to be a resume. The other two can be whatever I want. 
 I chose to make them about my pets and deltarune.
 Phase 2 required adding CSS to the three webpages.
+Phase 3 required adding some javascript and a new map page.
