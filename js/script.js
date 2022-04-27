@@ -26,7 +26,7 @@ function initMap(){
   
   const campusBoundriesCoord = [
     { lat: 41.83946, lng: -87.63003 },
-    { lat: 41.83961, lng: -87.62349 },
+    { lat: 41.83946, lng: -87.62349 },
     { lat: 41.83290, lng: -87.62332 },
     { lat: 41.83284, lng: -87.62655 },
     { lat: 41.83103, lng: -87.62655 },
