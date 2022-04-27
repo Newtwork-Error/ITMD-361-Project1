@@ -130,7 +130,8 @@ p, h1, h2, h3 {
 #map {
   width: 1000px;
   height: 600px;
-  margin: 50px auto;
+  margin: 40px auto;
+  border: 20px solid #949494;
 }
 
 #map-html{
@@ -143,6 +144,7 @@ p, h1, h2, h3 {
   height: 100%;
   margin: 0;
   padding: 0;
+  background: #d3d3d3;
 }
 
 @media screen and (min-width: 800px) {
