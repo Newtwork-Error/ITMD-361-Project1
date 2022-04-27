@@ -19,9 +19,9 @@ function initMap(){
   marker.addListener("click", () => {
     infowindow.open({
       anchor: marker,
-	  map,
-	  shouldFocus: false,
-	});
+      map,
+      shouldFocus: false,
+    });
   });
   
   const campusBoundriesCoord = [
@@ -31,7 +31,7 @@ function initMap(){
     { lat: 41.83284, lng: -87.62655 },
     { lat: 41.83103, lng: -87.62655 },
     { lat: 41.83103, lng: -87.63003 },
-	{ lat: 41.83946, lng: -87.63003 },
+    { lat: 41.83946, lng: -87.63003 },
   ];
   
   const campusBoundries = new google.maps.Polyline({
@@ -74,9 +74,9 @@ function init(){
 }
 
 $(document).ready(function(){
-    $('.slider').bxSlider({
-		mode: 'horizontal',
-	});
+  $('.slider').bxSlider({
+    mode: 'horizontal',
+  });
 });
 
 if (typeof google !== 'undefined') {
