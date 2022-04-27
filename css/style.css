@@ -147,6 +147,15 @@ p, h1, h2, h3 {
   background: #d3d3d3;
 }
 
+.slideshow {
+	max-width: 475px;
+	margin: auto;
+}
+
+.slideshow ul {
+	margin:0;
+}
+
 @media screen and (min-width: 800px) {
   #delta-body h2 {
     text-align: center;

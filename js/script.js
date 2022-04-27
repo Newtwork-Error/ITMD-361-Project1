@@ -73,5 +73,13 @@ function init(){
   }
 }
 
-google.maps.event.addDomListener(window, 'load', initMap);
+$(document).ready(function(){
+    $('.slider').bxSlider({
+		mode: 'horizontal',
+	});
+});
+
+if (typeof google !== 'undefined') {
+  google.maps.event.addDomListener(window, 'load', initMap);
+}
 window.addEventListener('load', init);
